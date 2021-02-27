@@ -1,0 +1,33 @@
+.logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* text black */
+    
+  }
+  .header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 12px;
+text-transform: uppercase;
+  }
+  .logo a{
+    color: #1C2A39;
+    text-decoration: none;
+  }
+  
+  .table-header{
+    display: flex;
+  }
+  .table-header *{
+      margin-left: 100px;
+      margin-right: 100px;
+  }
