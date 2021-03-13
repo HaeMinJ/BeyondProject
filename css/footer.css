@@ -1,0 +1,22 @@
+.footer {
+    height: 160px;
+    background:#EEECEC;
+    display: flex;
+    align-items: center;
+}
+
+.footer_text {
+    margin-left: 20px;
+    font-family: Roboto;
+    font-weight:200;
+    font-size:2rem;
+}
+.gray {
+color:gray;
+}
+.footer_image {
+    position: absolute;
+    right: 30px;
+    width: 150px;
+    height: 150px;
+}
