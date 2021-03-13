@@ -4,24 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERL ㅣ Find the hidden object</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+<style>
 
-    <style>
-      .header{
-        height: 120px;
-      }
-      h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #4CAF50;
+  div.hh{
+    text-align: center;
+  }
+
+  div.a {
+text-align: center;
+  }
+  div.b {
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
+
+color: #889933;
+
+  }
+  div.c{
+    text-align:center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
+  }
+
+  div.d{
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
+  }
+
+  div.e{text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 500px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
 }
 
-    </style>
+div.f{
+  text-align: center;
+}
 
+div.g {
+  text-align:center;
+}
+  
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+    
+  </style>
+</head>
 
     
     
 
     <body>
+
+      <div class="header">
+        <span class="logo"><a href = "./Index.html">Ding-Dong Gamez</a></span>
+        <div class="table-header">
+          <span>Snakes N Ladders</span>
+          <span>Tic Tac Toe</span>
+          <span>Find The Hiden Object</span>
+        </div>
+    </div>
+    <hr>
 
 
 <div class="header">
@@ -29,13 +115,74 @@
   <h1><div class="logo"><a href ="./indext.html">Ding-dong gamez</a></div></h1>
 </div>
 <div class="hh"><img src="Screen Shot 2021-02-27 at 3.42.26 PM.png" alt="sWANTA"></div>
-
-<h2>find the hidden object and earn $1000🦋</h2>
-<div>
-  <h1>How to play</h1>
- 
+<div class="g">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUgjmtt3JEY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class= "a">
+  <h2>Find the hidden object and earn $1000🦋</h2>
+</div>
+<div class= "b">
+  <h2>how to play</h2>
+</div>
+<div class="c">
+  <p>how to play :: Check the picture that it'll show soon. Carefully investgate it. Then, look at the item list below
+    that you need to find. Find the hidden objects below, and click on them as a red circle will appear. If you are correct,
+    then congrats! 
+  </p>
+</div>
+<div class="d">
   <h4><a target="_blank" href="https://www.hiddenobjectgames.com/">"-Look at other games."</a></p></h4>
 </div>
+
+  <img src="../assets/Find the hidden object.svg">
+
+
+
+
+
+<footer>
+  
+ 
+  <img src="Screen_Shot_2021-03-06_at_2.40.02_PM-removebg-preview.png">
+  <img src="Screen_Shot_2021-03-06_at_2.40.02_PM-removebg-preview.png">
+  <img src="Screen_Shot_2021-03-06_at_2.40.02_PM-removebg-preview.png">
+  
+  <div class="g">
+    TwitTer :: @Warning451 
+INSTAGRAM :: HAMSTERBELL10
+EMAIL :: WARNING451EL@GMAIL.COM
+</div>
+
+</footer>
+
+<div id="overlay" onclick="off()">
+  <div id="text">Find the hidden object</div>
+</div>
+
+<div class="f">
+<div style="padding:20px">
+  <h2>Find the hidden object</h2>
+  <button onclick="on()">Turn on text</button>
+</div>
+
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
 
 
 
