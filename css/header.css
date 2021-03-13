@@ -5,8 +5,8 @@
     font-size: 24px;
     line-height: 29px;
     /* text black */
-    
   }
+
   .header{
     height: 100px;
     display: flex;
@@ -19,7 +19,7 @@ font-size: 14px;
 line-height: 12px;
 text-transform: uppercase;
   }
-  .logo a{
+  .header a{
     color: #1C2A39;
     text-decoration: none;
   }
@@ -28,6 +28,6 @@ text-transform: uppercase;
     display: flex;
   }
   .table-header *{
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: 40px;
+      margin-right: 40px;
   }
