@@ -18,8 +18,9 @@
     grid-template-columns: repeat(3, auto);
     justify-content: center;
     align-content: center;
-    justify-items: stretch;
+    justify-items: center;
     align-items: stretch;
+    
   }
   
   .cell {
@@ -114,4 +115,11 @@
   .board.x .cell:not(.x):not(.circle):hover::after {
     background-color: lightgrey;
   }
- 
+  .resp-container{
+    display: flex;
+    justify-content: center;
+  }
+ .resp-container iframe{
+   width: 1300px;
+   height: 800px;
+ }
