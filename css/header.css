@@ -1,33 +1,35 @@
-.logo{
+.logo {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     /* text black */
-  }
+}
 
-  .header{
+.header {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 14px;
-line-height: 12px;
-text-transform: uppercase;
-  }
-  .header a{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.header a {
     color: #1C2A39;
     text-decoration: none;
-  }
-  
-  .table-header{
+}
+
+.table-header {
     display: flex;
-  }
-  .table-header *{
-      margin-left: 40px;
-      margin-right: 40px;
-  }
+}
+
+.table-header * {
+    margin-left: 40px;
+    margin-right: 40px;
+}
